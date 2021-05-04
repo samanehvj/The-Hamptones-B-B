@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Room & Rate</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Inter|Open+Sans|Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/site.css">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Catamaran&family=Raleway&display=swap" rel="stylesheet"> 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Montaga&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			
+		</div>
+
+		<div class="nav">
+
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="gallary.html">Gallary</a></li>
+				<li><a href="room.html">Room & Rates</a></li>
+				<li><a href="winery.html">Winery</a></li>
+				<li><a href="contact.html">Contact</a></li>
+
+			</ul>
+
+		</div> <!-- end of nav -->
+		<button  class="cta" onclick="showAlert()">Book Now</button> 
+		<script>
+			function showAlert() {
+				var myText = "Your room is book successfully ";
+				alert (myText);
+			}
+		</script>
+	</header>
+	<div class="hero-room">
+	<h4> ROOM & RATES</h4>
+
+	</div><!-- hero -->
+
+
+	<div class="booking">
+		<form>
+			<span>
+				<label for="check-in">Check In</label>
+				<input type="date" name="checkin" id="check-in">
+			</span>
+			<span>
+				<label for="check-out">Check Out</label>
+				<input type="date" name="checkout" id="check-out" font>
+			</span>
+			<span>
+				<label for="room">Room</label>
+				<select id="room">
+					<option>Junior Suite</option>
+					<option>Standard Suite</option>
+					<option>Superior Suite</option>
+				</select>
+			</span>
+			<span>
+				<label for="adult">Adult</label>
+				<input type="number" name="adult" id="adult" size="10" min="1" max="9">
+			</span>
+			<span><input type="submit" name="" value="Submit"></span>
+		</form>
+	</div><!-- end of booking -->
+
+
+
+	<div class="content">
+		<h4>ROOM & RATES</h4>
+		<h3> Junior Suite</h3>
+		<div class="content-item">
+			<div class="content-media">
+				<a href="img/room-1.jpg" data-fancybox="gallery1"><img src="img/room-1.jpg" class="larg-img" ></a>
+				<a href="img/room-1-design.jpg" data-fancybox="gallery1"><img src="img/room-1-design.jpg" class="small-img"></a>
+				<a href="img/badroom.jpg" data-fancybox="gallery1"><img src="img/badroom.jpg" class="small-img"></a>
+				<a href="img/bedroom.jpg" data-fancybox="gallery1"><img src="img/bedroom.jpg" class="small-img"></a>
+			</div>
+			<div class="content-info">
+				<p>
+					Our Junior Suites are the perfect option if you’re looking for a little extra luxury. Features one double bed,sectional sofa bed,televisions,, and complimentary Wi-Fi. With an open 150 square foot floor plan, the Junior Suites offer the extra space you need to spread out and enjoy the breathtaking views of the front street B&B.
+
+				</p>
+				<div class="amenities">
+					<h2>Amenities</h2>
+					<p>
+						<i class="fa fa-phone-square"></i> 
+						<i class="fa fa-wifi"></i>
+						<i class="fa fa-bed"></i>
+						<i class="fa fa-snowflake-o"></i>
+						<i class="fa fa-smoking-ban"></i>					
+					</p>
+					<p>
+						<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+					</p>
+				</div>
+				<h3>From
+					<br>
+					<span class="color">$70</span> per night
+				</h3>
+
+				<a href="#" class="btn-room">Book Now</a>
+
+
+
+
+			</div>	
+
+
+		</div>
+		<hr>
+		<h3> Standard Suite</h3>
+		<div class="content-item">
+			<div class="content-media">
+				<a href="img/room-2.jpg" data-fancybox="gallery2"><img src="img/room-2.jpg" class="larg-img" ></a>
+				<a href="img/room2-bed.jpg" data-fancybox="gallery2"><img src="img/room2-bed.jpg" class="small-img"></a>
+				<a href="img/badroom.jpg" data-fancybox="gallery2"><img src="img/badroom.jpg" class="small-img"></a>
+				<a href="img/bedroom.jpg" data-fancybox="gallery2"><img src="img/bedroom.jpg" class="small-img"></a>
+			</div>
+			<div class="content-info">
+				<p>
+					Functional and comfortable. Sit back and enjoy one of our brand new 280 square foot Standard Rooms.have queen bed, Complete with backyard views, stylish decor and natural light, our Standard Rooms are the perfect combination of function and comfort. Ideally suited for today’s business orleisure travelers.
+
+				</p>
+				<div class="amenities">
+					<h2>Amenities</h2>
+					<p>
+						<i class="fa fa-phone-square"></i> 
+						<i class="fa fa-wifi"></i>
+						<i class="fa fa-bed"></i>
+						<i class="fa fa-tv"></i>
+						<i class="fa fa-snowflake-o"></i>
+					</p>
+					<p>
+						<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa  fa-star-half-o"></i>
+					</p>
+				</div>
+				<p>
+					<h3>From
+						<br>
+						<span class="color">$120</span> per night
+					</h3>
+					<a href="#" class="btn-room">Book Now</a>
+
+
+
+				</div>	
+			</div>
+			<hr>
+
+			<h3> Superior Suite</h3>
+			<div class="content-item">
+				<div class="content-media">
+					<a href="img/room-3.jpg" data-fancybox="gallery3"><img src="img/room-3.jpg" class="larg-img" ></a>
+					<a href="img/room-3-sofa.jpg" data-fancybox="gallery3"><img src="img/room-3-sofa.jpg" class="small-img"></a>
+					<a href="img/room-3-stuff.jpg" data-fancybox="gallery3"><img src="img/room-3-stuff.jpg" class="small-img"></a>
+					<a href="img/badroom.jpg" data-fancybox="gallery3"><img src="img/badroom.jpg" class="small-img"></a>
+				</div>
+				<div class="content-info">
+					<p>
+						Elegant simplicity. Our Superior Rooms give you the space and privacy you need to work or play on the road and have one king bed. The spacious 380 square foot rooms include an intimate lounge area, business workstation and views of the lake. Complete with all the regular amenities, our Superior Rooms also include a daily newspaper and water bottles.
+
+					</p>
+					<div class="amenities">
+						<h2>Amenities</h2>
+						<p>
+							<i class="fa fa-phone-square"></i> 
+							<i class="fa fa-wifi"></i>
+							<i class="fa fa-bed"></i>
+							<i class="fa fa-tv"></i>
+							<i class="fa fa-snowflake-o"></i>
+							<i class="fa fa-smoking-ban"></i>					
+						</p>
+						<p>
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+						</p>
+					</div>
+
+					<h3>From
+						<br>
+						<span class="color">$220</span> per night
+					</h3>
+					<a href="#" class="btn-room">Book Now</a>
+
+
+
+
+				</div>	
+			</div>
+
+
+		</div>
+
+		<footer>
+
+			<span class="footer-info">
+				<h4> 
+					The  Hamptons B&amp;B 
+				</h4>
+
+				<h5>
+					Contact:
+				</h5>
+
+				<p><strong>Phone</strong> : 543-908-0000
+					<br>
+					<br>
+
+					<strong>Addresse:</strong> 2123-13 St.Kelowna B.C
+					V3U 0K4 
+					<br>
+					<br>
+
+					<strong>Email:</strong> hamptons@bb.com
+
+
+
+				</p>
+
+			</span>
+
+			<hr>
+
+			<span class="copy-right">
+				Al rights reserved by Samaneh Vajdi 2020
+			</span>
+
+			<span class="footer-policy">
+				Term Of Use / Privicy Policy							
+			</span>
+
+
+		</footer>
+		<ul id="social-networking">
+			<li class="facebook"> <a href="#1"> </a> </li>
+			<li class="twitter"><a href="#2"> </a> </li>
+			<li class="instagram"> <a href="#4"> </a> </li>
+		</ul> 
+
+
+
+	</body>
+	</html>
