@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Contact US</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Inter|Open+Sans|Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/site.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Trykker&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Catamaran&family=Neuton&family=Raleway&display=swap" rel="stylesheet"> 
+
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+
+</head>
+<body>
+	<header>
+		<div class="logo">
+
+		</div>
+
+		<div class="nav">
+
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="gallary.html">Gallary</a></li>
+				<li><a href="room.html">Room & Rates</a></li>
+				<li><a href="winery.html">Winery</a></li>
+				<li><a href="contact.html">Contact</a></li>
+
+			</ul>
+
+		</div> <!-- end of nav -->
+		<button class="cta"  onclick="showAlert()">Book Now</button> 
+		<script>
+			function showAlert() {
+				var myText = "Your room is book successfully ";
+				alert (myText);
+			}
+		</script>
+
+	</header>
+	<div class="hero-contact">
+		<h1>CONTACT US</h1>
+
+
+	</div><!-- hero -->
+	<div class="contact-title">
+		<h4> CONTACT  INFOMATION</h4>
+	</div>
+	<section class="contact">
+
+		<div class=" address">
+			<p>
+				<span>Addresse:</span>
+				<br>
+				2123-13 St.Kelowna B.C
+				<br>
+
+				V3U 0K4
+			</p>
+		</div>
+
+		<div class=" phone">
+			<p>
+				<span>Phone:</span>
+				<br>
+				
+				250-987-1000
+				<br>
+				250-987-1001 
+			</p>
+		</div>
+
+		<div class=" email">
+			<p>
+				<span>Email:</span>
+				<br>
+				hamptons@bb.com  
+				<br>
+				hamptons@customerservice.com
+
+			</p>
+		</div>
+
+
+	</section>
+
+
+
+
+
+	<!--=====================Form======================-->
+
+
+	<div class="container">
+		<h3>Get In touch with Us  </h3>
+		<form>
+			<label for="fname">First Name</label>
+			<input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+			<label for="lname">Last Name</label>
+			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+			<label for="email">Email</label>
+			<input type="text" id="lname" name="email" placeholder="Your email ..">
+
+
+			<label for="subject">Subject</label>
+			<textarea id="subject" name="subject" placeholder="Hello...." style="height:200px"></textarea>
+
+			<button id="submit-form" onclick="alertFunction()">Submit</button>
+		</form>
+	</div>
+	<script type="text/javascript">
+		function alertFunction() {
+			alert('The form submited successfully')
+		}
+	</script>
+
+
+
+	<div class="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d164477.25785555018!2d-119.59520608278673!3d49.89960771224969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537d8cb6e3c730b3%3A0x4ef8e53ddab4c4f7!2sKelowna%2C%20BC!5e0!3m2!1sen!2sca!4v1590831990231!5m2!1sen!2sca" width="900" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	</div>
+
+
+
+	<div class="team">
+
+		<div class="team-img">
+			<img src="img/team-member.jpg" alt="team" class="img-team">
+
+		</div>
+
+		<div class="info-team">		
+			<img src="img/team-info.png" alt="team" class="img-text">
+		</div>
+
+	</div>
+
+
+
+
+
+	<footer>
+
+		<span class="footer-info">
+			<h4> 
+				The  Hamptons B&amp;B 
+			</h4>
+
+			<h5>
+				Contact:
+			</h5>
+
+			<p><strong>Phone</strong> : 543-908-0000
+				<br>
+				<br>
+				
+				<strong>Addresse:</strong> 2123-13 St.Kelowna B.C
+				V3U 0K4 
+				<br>
+				<br>
+
+				<strong>Email:</strong> hamptons@bb.com
+
+
+			</p>
+
+		</span>
+
+		<hr>
+
+		<span class="copy-right">
+			Al rights reserved by Samaneh Vajdi 2020
+		</span>
+
+		<span class="footer-policy">
+			Term Of Use / Privicy Policy							
+		</span>
+
+
+	</footer>
+
+	<ul id="social-networking">
+		<li class="facebook"> <a href="#1"> </a> </li>
+		<li class="twitter"><a href="#2"> </a> </li>
+		<li class="instagram"> <a href="#4"> </a> </li>
+	</ul> 
+
+
+
+
+</body>
+</html>
