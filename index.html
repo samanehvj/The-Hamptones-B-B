@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Hamptons B&B</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Inter|Open+Sans|Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/site.css">
+
+
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+	<header>
+		<div class="logo">
+			<h1></h1>
+		</div>
+
+		<div class="nav">
+
+			<ul>
+				
+				<li><a href="index.html">Home</a></li>
+				<li><a href="gallary.html">Gallary</a></li>
+				<li><a href="room.html">Room & Rates</a></li>
+				<li><a href="winery.html">Winery</a></li>
+				<li><a href="contact.html">Contact</a></li>
+
+			</ul>
+
+		</div> <!-- end of nav -->
+		<button  class="cta" onclick="showAlert()">Book Now</button> 
+		<script>
+			function showAlert() {
+				var myText = "Your room is book successfully ";
+				alert (myText);
+			}
+		</script>
+
+	</header>
+	<div class="hero">
+		<div class="text">
+			<h2 class="opc-5">Welcome</h2>
+			<br>
+			<h2>The Hampton </h2>
+			<br>
+			<h2 class="opc-7 right mrgr-100">B&amp;B</h2>
+
+
+		</div> <!-- text -->
+
+	</div><!-- hero -->
+
+
+	<div class="booking">
+		<form>
+			<span>
+				<label for="check-in">Check In</label>
+				<input type="date" name="checkin" id="check-in">
+			</span>
+			<span>
+				<label for="check-out">Check Out</label>
+				<input type="date" name="checkout" id="check-out"  size="170">
+			</span>
+			<span>
+				<label for="room">Room</label>
+				<select id="room">
+					<option>Junior Suite</option>
+					<option>Standard Suite</option>
+					<option>Superior Suite</option>
+				</select>
+			</span>
+			<span>
+				<label for="adult">Adult</label>
+				<input type="number" name="adult" id="adult" size="5" min="1" max="15">
+			</span>
+			<span><input type="submit" name="" value="Submit"></span>
+		</form>
+	</div><!-- end of booking -->
+
+
+
+
+	<div class="benefit-row">
+		<div class="room">
+			<h3>Room & Rate</h3>
+			<img src="img/home-room.jpeg" alt="type-one" class="img-room">
+			<a href="room.html" class="btn-room">More Details ...</a>
+
+		</div>
+
+		<div class="winery">
+			<h3>Winery</h3>
+			<img src="img/wine.jpeg" alt="type-two" class="img-wine">
+			<a href="winery.html" class="btn-room">More Details ...</a>
+
+		</div>
+
+		<div class="location">
+			<h3>Location</h3>
+			<img src="img/map.jpeg" alt="type-three" class="img-map">
+			<a href="contact.html" class="btn-room">More Details ...</a>
+
+		</div>
+
+
+	</div>
+
+
+
+
+	<footer>
+
+		<span class="footer-info">
+			<h4> 
+				The  Hamptons B&amp;B 
+			</h4>
+
+			<h5>
+				Contact:
+			</h5>
+
+			<p><strong>Phone</strong> : 543-908-0000
+				<br>
+				<br>
+				
+				<strong>Addresse:</strong> 2123-13 St.Kelowna B.C
+				V3U 0K4 
+				<br>
+				<br>
+
+				<strong>Email:</strong> hamptons@bb.com
+
+
+
+			</p>
+
+		</span>
+
+		<hr>
+
+		<span class="copy-right">
+			Al rights reserved by Samaneh Vajdi 2020
+		</span>
+
+		<span class="footer-policy">
+			Term Of Use / Privicy Policy							
+		</span>
+
+
+	</footer>  
+
+	<ul id="social-networking">
+		<li class="facebook"> <a href="#1"> </a> </li>
+		<li class="twitter"><a href="#2"> </a> </li>
+		<li class="instagram"> <a href="#4"> </a> </li>
+	</ul> 
+
+
+
+
+
+
+</body>
+</html>
